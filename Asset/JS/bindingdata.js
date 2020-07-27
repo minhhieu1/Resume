@@ -1,5 +1,5 @@
 function loadData(request, targetId, sourceId) {
-    var PATH = "/Asset/Data/"+request+".json"
+    var PATH = "./Asset/Data/"+request+".json"
     fetch(PATH)
     .then(response => response.json())
     .then(json => {
