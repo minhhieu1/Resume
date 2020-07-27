@@ -1,0 +1,22 @@
+[
+    {
+        "skill":"Java Core",
+        "rating" : "50%"
+    },
+    {
+        "skill":"Communication",
+        "rating" : "80%"
+    },
+    {
+        "skill":"Teamwork",
+        "rating" : "80%"
+    },
+    {
+        "skill":"Self-learning",
+        "rating" : "80%"
+    },
+    {
+        "skill":"Research",
+        "rating" : "80%"
+    }
+]

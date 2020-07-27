@@ -1,0 +1,48 @@
+[
+    {
+        "units" : "UNIVERSITY OF SCIENCE HO CHI MINH CITY",
+        "major" : "Software Engineer",
+        "datetime" : "NOV 2018 - NOW",
+        "discription" : [
+            "Learning via network"
+        ]
+    },
+    {
+        "units" : "IT CENTER UNIVERSITY OF SCIENCE",
+        "major" : "Android Developer",
+        "datetime" : "DEC 2018 - MAY 2019",
+        "discription" : [
+            ""
+        ]
+    },
+    {
+        "units" : "IT CENTER UNIVERSITY OF SCIENCE",
+        "major" : "Java Developer",
+        "datetime" : "JULY 2018 - DEC 2018",
+        "discription" : [
+            ""
+        ]
+    },
+    {
+        "units" : "IT CENTER UNIVERSITY OF SCIENCE",
+        "major" : "Java Basic",
+        "datetime" : "MAY 2018 - DEC 2018",
+        "discription" : [
+            ""
+        ]
+    },
+    {
+        "units" : "UNIVERSITY OF PEDAGOGY",
+        "major" : "Organic Chemistry",
+        "datetime" : "SEP 2013 - SEP 2017",
+        "discription" : ["GPA: 7.3/10"]
+    },
+    {
+        "units" : "UNIVERSITY OF PEDAGOGY",
+        "major" : "Chemistry Teacher",
+        "datetime" : "SEP 2013 - SEP 2017",
+        "discription" : [
+            "GPA: 7.1/10"
+        ]
+    }
+]

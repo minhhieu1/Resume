@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <title>Bui Nguyen Minh Hieu - Resume</title>
+</head>
+<script src="/Asset/JS/bootstrap.min.js"></script>
+<script src="/Asset//JS/handlebars-v4.7.6.js"></script>
+<script src="/Asset/JS/jquery-3.5.1.min.js"></script>
+<script src="/Asset/JS/bindingdata.js"></script>
+<link rel="stylesheet" href="/Asset/Css/bootstrap.min.css">
+<link rel="stylesheet" href="/Asset//Css/bootstrap-theme.css">
+<link rel="stylesheet" href="/Asset/Css/custom.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<body>
+    <div class="table-container">
+        <div class="main row">
+            <div class="left-col col-xs-3">
+                <div class="avatar-wrapper">
+                    <img class="avatar-img img-circle img-fluid" src="/Asset/Image/avatar.png" alt="Avatar">
+                    <div class="name">
+                        <b>BUI NGUYEN MINH HIEU</b></br>
+                        <i>Java Developer</i>
+                    </div>
+                </div>
+                <div class="contact-wrapper" id="contact-wrapper">
+                </div>
+                <div class="objective-wrapper" id="objective-wrapper">
+                </div>
+                <div class="skill-wrapper" id="skill-wrapper">
+                </div>
+            </div>
+            <div class="right-col col-xs-9">
+                <div class="education-wrapper" id="education-wrapper">
+                </div>
+                <div class="experimence-wrapper" id="experimence-wrapper">
+                </div>
+                <div class="activities-wrapper" id="activities-wrapper">
+                </div>
+                <div class="certifications-wrapper" id="certifications-wrapper">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script id="contact-template" type="text/x-handlebars-template">
+    {{#each data}}
+        <div class=" row contact-element ">
+            <div class="col-xs-2">
+                <span class="material-icons span">
+                    {{icon}}
+                </span>
+            </div>
+            <div class="col-xs-10 cont">
+                <i>{{content}}</i>
+            </div>
+            
+        </div>
+    {{/each}}
+</script>
+<script id="objective-template" type="text/x-handlebars-template">
+    <div class="lab">
+        <b>OBJECTIVE</b>
+    </div>
+    <div class="obj-content">
+        {{#each data}}
+            {{content}} <br>
+        {{/each}}
+    </div>
+</script>
+<script id="skill-template" type="text/x-handlebars-template">
+    <div class="lab">
+        <b>SKILL</b>
+    </div>
+    <div class="obj-content">
+        {{#each data}}
+            {{skill}} <br>
+            <div class="fullRat">
+                <div class="currRat" style="width: {{rating}};"></div>
+            </div>
+        {{/each}}
+    </div>
+</script>
+<script id="education-template" type="text/x-handlebars-template">
+    <div class="right-lab">
+        <span class="material-icons">
+            school
+        </span>
+        <b>EDUCATION</b>
+    </div>
+    {{#each data}}
+    <div class="right-body">
+        <div class="row">
+            <div class="col-xs-7 units">{{units}}</div>
+            <div class="col-xs-5 datime">{{datetime}}</div>
+        </div>
+        <div class="major">
+            {{major}}
+        </div>
+        <div class="discription">
+            {{#each discription}}
+                {{this}}
+            {{/each}}
+        </div>
+    </div>
+    {{/each}}
+</script>
+<script id="experimence-template" type="text/x-handlebars-template">
+    <div class="right-lab">
+        <span class="material-icons">
+            work
+        </span>
+        <b>WORK EXPERIENCE</b>
+    </div>
+    {{#each data}}
+    <div class="right-body">
+        <div class="row">
+            <div class="col-xs-7 units">{{units}}</div>
+            <div class="col-xs-5 datime">{{datetime}}</div>
+        </div>
+        <div class="major">
+            {{major}}
+        </div>
+        <div class="discription">
+            {{#each discription}}
+                {{this}} <br>
+            {{/each}}
+        </div>
+    </div>
+    {{/each}}
+</script>
+<script id="activities-template" type="text/x-handlebars-template">
+    <div class="right-lab">
+        <span class="material-icons">
+            group
+        </span>
+        <b>ACTIVITIES</b>
+    </div>
+    {{#each data}}
+    <div class="right-body">
+        <div class="row">
+            <div class="col-xs-7 units">{{units}}</div>
+            <div class="col-xs-5 datime">{{datetime}}</div>
+        </div>
+        <div class="major">
+            {{major}}
+        </div>
+        <div class="discription">
+            {{#each discription}}
+                {{this}} <br>
+            {{/each}}
+        </div>
+    </div>
+    {{/each}}
+</script>
+<script id="certifications-template" type="text/x-handlebars-template">
+    <div class="right-lab">
+        <span class="material-icons">
+            article
+        </span>
+        <b>CERTIFICATIONS</b>
+    </div>
+    {{#each data}}
+    <div class="right-body">
+        {{this}}
+    </div>
+    {{/each}}
+</script>
+<script>
+     $(document).ready(function () {
+        loadData("contact", "#contact-wrapper", "#contact-template");
+        loadData("objective", "#objective-wrapper", "#objective-template");
+        loadData("skill", "#skill-wrapper", "#skill-template");
+        loadData("education", "#education-wrapper", "#education-template");
+        loadData("experimence", "#experimence-wrapper", "#experimence-template");
+        loadData("activities", "#activities-wrapper", "#activities-template");
+        loadData("certifications", "#certifications-wrapper", "#certifications-template");
+        
+      });
+</script>
+</html>

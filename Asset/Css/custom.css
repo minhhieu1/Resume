@@ -1,0 +1,130 @@
+html, body {
+    margin: 0px;
+    background-color: #A9A9A9;
+    min-width:1024px;
+}
+.table-container {
+    display: table;
+    width: 80%;
+    margin: 2% auto;
+}
+  
+.table-container .main {
+height: 100%;
+display: table-row;
+}
+
+.main {
+    background-color: #ffffff;
+    margin: 2% auto;
+    width: 80%;
+    height: 100%;
+}
+.left-col{
+    background-color: #37474f;
+    color: #ffffff;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    height: 100%;
+    display: table-cell;
+    float: none;
+    vertical-align: top;
+}
+.avatar-wrapper{
+    background-color: #263238;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5%;
+    margin-bottom: 15px;
+}
+.avatar-img{
+    max-width: 100%;
+    height: auto;
+    margin: 5% auto;
+}
+.name > b, .lab>b {
+    font-size: 22px;
+}
+.contact-wrapper{
+    width: 100%;
+}
+.contact-element {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    align-items:center;
+    display: flex;
+}
+.span {
+    background-color: slategray;
+    border-radius: 50%;
+    padding: 3px;
+}
+.cont {
+    height: 100%;
+    margin-left: -2%;
+}
+.lab {
+    margin: 15px 0px;
+}
+
+.fullRat {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    height: 10px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.currRat{
+    height: 100%;
+    background-color: #263238;
+}
+.right-col {
+    padding: 30px;
+    color: #263238;
+    height: 100%;
+    display: table-cell;
+    float: none;
+    vertical-align: top;
+}
+.right-lab{
+    font-size: 22px;
+    align-items:center;
+    display: flex;
+    margin-bottom: 15px;
+}
+.right-lab > span {
+    background-color: #263238;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 5px;
+    font-size:30px;
+}
+.right-lab > b {
+    margin-left: 15px;
+}
+
+.right-body {
+    margin: 15px 0px;
+    color: #444444;
+}
+.units {
+    color: #414142;
+    font-weight: bold;
+    font-size: 16px;
+}
+.datime {
+    color: #444444;
+    font-weight: bold;
+    text-align: right;
+}
+.major {
+    margin-bottom: 1%;
+}
+.education-wrapper, .experimence-wrapper, .activities-wrapper {
+    margin-bottom: 25px;
+}
+

@@ -1,0 +1,30 @@
+[
+    {
+        "units" : "DXC Technology",
+        "major" : "Software Engineer",
+        "datetime" : "NOV 2019 - NOW",
+        "discription" : [
+            "- Fix defects and testing. ",  
+            "- Implement new requirement. ",
+            "- Improvement feature for Intergal project.  ",
+            "- Support team member.",
+            "- Update Technical Solution Document."
+        ]
+    },
+    {
+        "units" : "SANOFI AVENTIS",
+        "major" : "Analyst",
+        "datetime" : "MAR 2018 - FEB 2019",
+        "discription" : [
+            "Testing samples of raw materials and finished medicament products."
+        ]
+    },
+    {
+        "units" : "BUREAU VERITAS",
+        "major" : "Technician",
+        "datetime" : "JUNE 2017 - MAR 2018",
+        "discription" : [
+            "Develop inorganic analysis methods."
+        ]
+    }
+]

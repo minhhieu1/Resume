@@ -1,0 +1,30 @@
+[
+    {
+        "icon" : "calendar_today",
+        "content":"21/09/1995"
+    },
+    {
+        "icon" : "accessibility",
+        "content":"Male"
+    },
+    {
+        "icon" : "perm_phone_msg",
+        "content":"0338675217"
+    },
+    {
+        "icon" : "markunread",
+        "content":"minhhieubuinguyen@gmail.com"
+    },
+    {
+        "icon" : "location_on",
+        "content":"82/10/2 Binh Quoi, Binh Thanh District"
+    },
+    {
+        "icon" : "description",
+        "content":"https://www.facebook.com/minhhieu. buinguyen"
+    },
+    {
+        "icon" : "note",
+        "content":"https://github.com/minhhieu1"
+    }
+]
